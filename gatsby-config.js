@@ -3,6 +3,7 @@ module.exports = {
         title: "G5Mdx",
         description: "Test MDX & GraphQL in G5",
         siteUrl: "https://anyvalidurl.com/",
+        pathPrefix: "/Gatby5-MDX-CodeBlocks",
     },
     plugins: [
             {

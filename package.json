@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "gatsby": "^5.3.3",
     "gatsby-plugin-mdx": "^5.3.1",
     "gatsby-source-filesystem": "^5.3.1",
+    "gh-pages": "^4.0.0",
     "parse-numeric-range": "^1.3.0",
     "prism-react-renderer": "^1.3.5",
     "react": "^18.2.0",
